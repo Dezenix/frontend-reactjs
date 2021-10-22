@@ -1,6 +1,6 @@
 <h1 align="center">Frontend Reactjs</h1>
 
-![frontend react js](https://user-images.githubusercontent.com/79747022/138315620-27e08c22-aec8-4b08-9496-e036a73dc622.png)
+![2](https://user-images.githubusercontent.com/79747022/138426402-b8c4baf4-c1ed-4ee2-9005-157c8ada8883.png)
 
 <div align="center">
 
@@ -17,7 +17,8 @@
 <a href="https://github.com/Dezenix/frontend-reactjs/pulls"><img src="https://img.shields.io/github/issues-pr/Dezenix/frontend-reactjs?color=brightgreen"></a>
 <a href="https://github.com/Dezenix/frontend-reactjs/pulls?q=is%3Apr+is%3Aclosed"><img src="https://img.shields.io/github/issues-pr-closed-raw/Dezenix/frontend-reactjs?color=0059b3"></a>
 <!-- <a href="https://github.com/Dezenix/frontend-reactjs/issues"><img src="https://img.shields.io/github/issues/Dezenix/frontend-reactjs?color=0059b3"></a> -->
-
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
+  
 </div>
 
 ## ⚒️ Contribution Guidelines
