@@ -3,8 +3,8 @@
 
 A simple Login component using React library. 
 
-![Login Page 01](https://raw.githubusercontent.com/Swanand-Wagh/Swanand-Wagh/main/assets/login.png)
-
+![Login Page 01](https://raw.githubusercontent.com/Swanand-Wagh/Swanand-Wagh/master/assets/login.png)
+                 
 
 
 ## Things to do before hand
