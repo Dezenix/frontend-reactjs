@@ -3,7 +3,7 @@
 
 A simple Register component using React library. 
 
-![Login Page 01](https://raw.githubusercontent.com/Swanand-Wagh/Swanand-Wagh/main/assets/register.png)
+![Register Page 01](https://raw.githubusercontent.com/Swanand-Wagh/Swanand-Wagh/master/assets/register.png)
 
 
 
