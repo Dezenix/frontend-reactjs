@@ -18,8 +18,11 @@
 <a href="https://github.com/Dezenix/frontend-reactjs/pulls?q=is%3Apr+is%3Aclosed"><img src="https://img.shields.io/github/issues-pr-closed-raw/Dezenix/frontend-reactjs?color=0059b3"></a>
 <!-- <a href="https://github.com/Dezenix/frontend-reactjs/issues"><img src="https://img.shields.io/github/issues/Dezenix/frontend-reactjs?color=0059b3"></a> -->
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
-  
 </div>
+
+<h2 align="center">About the Repository</h2>
+
+We are on a mission to make things easy and convenient for all the users who just want to save their time. This repository consists of all the development components that are being used while coding an end to end website along with fully coded components in ReactJS. The main goal is to save your time by providing the complete code snippet with a fully responsive design of all the components that you may use in your development journey. At the later stage, the project is planned to be get converted into a library so that the components created can directly be used by importing and calling through classes. We always encourage new ideas. Feel free to get in touch with us and join our [Discord Server](https://discord.gg/F3TtF5AHKz) for updates.
 
 ## ⚒️ Contribution Guidelines
 
@@ -36,7 +39,7 @@ This project exists thanks to all the **people who contribute**.
 
 ## ❤️ Code of Conduct
 
-Please note that Open Source Design has a [Contributor Code of Conduct](https://github.com/Dezenix/.github/blob/main/CODE_OF_CONDUCT.md). By participating in this project online or at events you agree to abide by its terms.
+Please note that Dezenix has a [Contributor Code of Conduct](https://github.com/Dezenix/.github/blob/main/CODE_OF_CONDUCT.md). By participating in this project online or at events you agree to abide by its terms.
 
 ## 📜 License
 
