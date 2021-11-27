@@ -24,6 +24,34 @@
 
 We are on a mission to make things easy and convenient for all the users who just want to save their time. This repository consists of all the development components that are being used while coding an end to end website along with fully coded components in ReactJS. The main goal is to save your time by providing the complete code snippet with a fully responsive design of all the components that you may use in your development journey. At the later stage, the project is planned to be get converted into a library so that the components created can directly be used by importing and calling through classes. We always encourage new ideas. Feel free to get in touch with us and join our [Discord Server](https://discord.gg/F3TtF5AHKz) for updates.
 
+## 🛠️ Installation Steps
+
+1. Clone the repository
+
+```bash
+git clone https://github.com/Dezenix/frontend-reactjs.git
+```
+
+2. Change the working directory
+
+```bash
+cd frontend-reactjs
+```
+
+3. Install dependencies
+
+```bash
+npm install
+```
+
+4. Run the app
+
+```bash
+npm start
+```
+
+🌟 You are all set!
+
 ## ⚒️ Contribution Guidelines
 
 Are we missing any of your favorite features, which you think you can add to it? We invite you to contribute to this project and improve it further.
