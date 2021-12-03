@@ -26,28 +26,57 @@ We are on a mission to make things easy and convenient for all the users who jus
 
 ## 🛠️ Installation Steps
 
-1. Clone the repository
+1. Start by making a fork of the repository. Click on the <a href="https://github.com/Dezenix/frontend-reactjs/fork"><img src="https://i.imgur.com/G4z1kEe.png" height="21" width="21"></a> symbol at the top right corner.
+
+2. Clone the repository
 
 ```bash
 git clone https://github.com/Dezenix/frontend-reactjs.git
 ```
 
-2. Change the working directory
+3. Set upstream command:
+
+```bash
+git remote add upstream https://github.com/Dezenix/frontend-reactjs.git
+```
+
+4. Change the working directory
 
 ```bash
 cd frontend-reactjs
 ```
+5. Create a new branch:
 
-3. Install dependencies
+```bash
+git checkout -b YourBranchName
+```
+
+6. Install dependencies
 
 ```bash
 npm install
 ```
 
-4. Run the app
+7. Run the app
 
 ```bash
 npm start
+```
+
+8. Stage your changes and commit:
+
+```bash
+git add .
+```
+
+```bash
+git commit -m "<your_commit_message>"
+```
+
+9. Push your local commits to the remote repository:
+
+```bash
+git push origin YourBranchName
 ```
 
 🌟 You are all set!
