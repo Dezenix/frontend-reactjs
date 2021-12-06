@@ -1,8 +1,7 @@
-import React from "react";
+import React from 'react'
 import { Link } from "react-router-dom";
-import "../styles/Home.css";
 
-function Home() {
+export default function () {
   return (
     <div className="Home">
       <div className="header">
@@ -26,7 +25,5 @@ function Home() {
         </div>
       </div>
     </div>
-  );
+  )
 }
-
-export default Home;
