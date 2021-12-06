@@ -41,13 +41,13 @@ cd frontend-reactjs
 3. Install dependencies
 
 ```bash
-npm install
+yarn install
 ```
 
 4. Run the app
 
 ```bash
-npm start
+yarn start
 ```
 
 🌟 You are all set!
