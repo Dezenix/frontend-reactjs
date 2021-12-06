@@ -9,6 +9,7 @@
   top: -30px;
   font-weight: bold;
   margin: 0;
+  margin-bottom: 4rem;
 }
 .register_desc {
   font-size: 15px;
@@ -27,6 +28,7 @@
   padding: 12px 45px;
   letter-spacing: 1px;
   text-transform: uppercase;
+  margin-top: 4rem;
 }
 .login_btn {
   border-radius: 20px;
@@ -125,7 +127,7 @@
   right: 0;
 }
 .social-container {
-  margin: 0 ;
+  margin: 0;
 }
 .social-container a {
   border: 1px solid #dddddd;
@@ -137,4 +139,3 @@
   height: 40px;
   width: 40px;
 }
-
