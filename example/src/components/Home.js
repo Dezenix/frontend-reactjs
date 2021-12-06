@@ -21,6 +21,9 @@ export default function () {
           <Link to="/register" className="component" target="_blank">
             <h2>Register</h2>
           </Link>
+          <Link to="/product_card" className="component" target="_blank">
+            <h2>Product card</h2>
+          </Link>
           {/* Add new Link Here for your new component */}
         </div>
       </div>
