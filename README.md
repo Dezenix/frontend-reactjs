@@ -24,40 +24,32 @@
 
 We are on a mission to make things easy and convenient for all the users who just want to save their time. This repository consists of all the development components that are being used while coding an end to end website along with fully coded components in ReactJS. The main goal is to save your time by providing the complete code snippet with a fully responsive design of all the components that you may use in your development journey. At the later stage, the project is planned to be get converted into a library so that the components created can directly be used by importing and calling through classes. We always encourage new ideas. Feel free to get in touch with us and join our [Discord Server](https://discord.gg/F3TtF5AHKz) for updates.
 
-## 🛠️ Installation Steps
-
-1. Clone the repository
-
-```bash
-git clone https://github.com/Dezenix/frontend-reactjs.git
-```
-
-2. Change the working directory
-
-```bash
-cd frontend-reactjs
-```
-
-3. Install dependencies
-
-```bash
-yarn install
-```
-
-4. Run the app
-
-```bash
-yarn start
-```
-
-🌟 You are all set!
 
 ## ⚒️ Contribution Guidelines
 
-Are we missing any of your favorite features, which you think you can add to it? We invite you to contribute to this project and improve it further.
+Are we missing any of your favourite features, which you think you can add to it? We invite you to contribute to this project and improve it further.
 
-Click on the image below to set up and contribute to the project or [Click here](https://github.com/Dezenix/.github/blob/main/CONTRIBUTING.md)
-[![setup](https://user-images.githubusercontent.com/79747022/138315489-6cd2c72b-8b48-4c0b-ab88-94b652b32b69.png)](https://github.com/Dezenix/.github/blob/main/CONTRIBUTING.md)
+#### 1. Clone and Setup:
+* Clone and Setup the repository by following the steps mentioned [here](https://github.com/Dezenix/.github/blob/main/CONTRIBUTING.md).
+
+#### 2. Add your Components:
+* All the usermade components should be made under [`src/lib-components/{component_name}`](https://github.com/Dezenix/frontend-reactjs/tree/main/src/lib-components) here `{component_name}` is the name of your component in **snake_case**.
+* CSS files should follow this syntax `{name}.module.css` here `{name}` can be anything you want but in **snake_case**. This is due to the fact that we are transpiling the css classnames to avoid any conflicts between 2 or more modules. Due to this, simple importing your CSS file will no longer work. You will have to named import your css files and then treat them as a dictionary to use your CSS classnames.
+* Components should make use of props to display images or strings.
+* We also request you to **not make use of any network components**. For fonts, it would be better if you make use of default browser provided fonts. This is because we can't always be sure which license is used in 3rd party stuff. In future, we do plan to provide more fonts that will be licensed properly.
+
+#### 3. Export your Component:
+* The User-made modules should be exported in [`src/index.js`](https://github.com/Dezenix/frontend-reactjs/blob/main/src/index.js).
+
+#### 4. View your Component:
+* A simple example should be added in [`example/src`](https://github.com/Dezenix/frontend-reactjs/tree/main/example/src) demonstrating your component.
+
+#### 5. Run the App:
+* Go to the [`example`](https://github.com/Dezenix/frontend-reactjs/tree/main/example) directory and then run:
+```
+yarn install
+yarn serve
+```
 
 ## 👨‍💻 Our valuable Contributors
 
