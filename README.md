@@ -37,24 +37,62 @@ Are we missing any of your favourite features, which you think you can add to it
 #### 1. Clone and Setup:
 * Clone and Setup the repository by following the steps mentioned [here](https://github.com/Dezenix/.github/blob/main/CONTRIBUTING.md).
 
-#### 2. Add your Components:
+#### 2. Setup dev environment
+* This repository is divided into 2 parts
+  - Library ```src/*```
+  - Example ```example/*```
+
+##### 2.1 Setting up library environment
+
+This is where all your components will be
+
+* Install all dependencies
+
+``` bash
+yarn install
+```
+
+* Watch for file changes and build 
+
+``` bash
+yarn start
+```
+
+##### 2.2 Setting up example environment
+This is where you can see your component implementation
+
+* Change directory to [example](/example) folder
+
+``` bash
+cd example
+```
+
+* Install all dependencies
+
+``` bash
+yarn install
+```
+
+* Start a live server on localhost
+
+``` bash
+yarn start
+```
+
+A server should start on localhost where you can view all the examples
+ 
+
+#### 3. Add your Components:
 * All the usermade components should be made under [`src/lib-components/{component_name}`](https://github.com/Dezenix/frontend-reactjs/tree/main/src/lib-components) here `{component_name}` is the name of your component in **snake_case**.
 * CSS files should follow this syntax `{name}.module.css` here `{name}` can be anything you want but in **snake_case**. This is due to the fact that we are transpiling the css classnames to avoid any conflicts between 2 or more modules. Due to this, simple importing your CSS file will no longer work. You will have to named import your css files and then treat them as a dictionary to use your CSS classnames.
 * Components should make use of props to display images or strings.
 * We also request you to **not make use of any network components**. For fonts, it would be better if you make use of default browser provided fonts. This is because we can't always be sure which license is used in 3rd party stuff. In future, we do plan to provide more fonts that will be licensed properly.
 
-#### 3. Export your Component:
-* The User-made modules should be exported in [`src/index.js`](https://github.com/Dezenix/frontend-reactjs/blob/main/src/index.js).
+#### 4. Export your Component:
+* The User-made modules should be exported in [`src/index.js`](/src/index.js).
 
-#### 4. View your Component:
-* A simple example should be added in [`example/src`](https://github.com/Dezenix/frontend-reactjs/tree/main/example/src) demonstrating your component.
-
-#### 5. Run the App:
-* Go to the [`example`](https://github.com/Dezenix/frontend-reactjs/tree/main/example) directory and then run:
-```
-yarn install
-yarn serve
-```
+#### 5. View your Component:
+* A simple example should be added in [`example/src`](/example/src) demonstrating your component.
 
 ## 👨‍💻 Our valuable Contributors
 
