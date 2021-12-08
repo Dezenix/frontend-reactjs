@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from "react-router-dom";
 
-export default function () {
+const Home = () => {
   return (
     <div className="Home">
       <div className="header">
@@ -30,3 +30,5 @@ export default function () {
     </div>
   )
 }
+
+export default Home
