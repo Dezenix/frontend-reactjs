@@ -1,6 +1,6 @@
 {
   "name": "dezenix-react-example",
-  "homepage": ".",
+  "homepage": "https://dezenix.github.io/frontend-reactjs",
   "version": "0.0.0",
   "private": true,
   "scripts": {
@@ -11,6 +11,7 @@
   },
   "dependencies": {
     "dezenix-react": "link:..",
+    "http-serve": "^1.0.1",
     "react": "link:../node_modules/react",
     "react-dom": "link:../node_modules/react-dom",
     "react-router-dom": "^6.0.2",
