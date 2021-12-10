@@ -1,0 +1,112 @@
+.App {
+  width: 100vw;
+  height: 100vh;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+}
+button:hover{
+  cursor: pointer;
+}
+
+.Navbar {
+  background-color: #6badeb;
+  width: 100%;
+  height: 80px;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+
+}
+.Navbar .leftSide{
+  flex: 50%;
+  display: flex;
+  justify-content: left;
+  align-items: center; 
+  /* background-color:red */
+}
+
+.Navbar .leftSide .links{
+  max-height: 80px;
+}
+
+.Navbar .leftSide .links a {
+  text-decoration: none;
+  color: black;
+  font-size: 25px;
+  margin-left: 15px;
+
+}
+.Navbar .leftSide button{
+  display: none;
+  margin-left: 20px;
+  
+}
+.Navbar .leftSide #hidden{
+  display: flex;
+
+}
+
+.Navbar .rightSide{
+  flex: 50%;
+  /* background-color:green */
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding-right: 25px;
+}
+
+.rightSide input{
+  width: 220px;
+  height: 30px;
+  border: none;
+  border-radius: 4px;
+  font-size: 20px;
+  padding-left:15px;
+  color: black;
+}
+
+.rightSide button{
+  height: 32px;
+  width: 70px;
+  font-size: 16px;
+
+}
+
+@media only screen and (max-width: 850px) {
+  .Navbar .leftSide .links a {
+    font-size: 20px;
+  }
+}
+@media only screen and (max-width: 750px) {
+  .Navbar .leftSide .links a {
+    font-size: 15px;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  .Navbar .leftSide button{
+    display: flex;
+  }
+  .Navbar .leftSide .links{
+    display: none;
+  }
+  .Navbar .leftSide #hidden{
+    position: absolute;
+    left: 0px;
+    top: 80px;
+    height: 230px;
+    max-height: 230px;
+    width: 100%;
+    background-color: #6badeb;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+.Navbar .leftSide #hidden a{
+  margin: 10px;
+  font-size: 25px;
+}
+}
