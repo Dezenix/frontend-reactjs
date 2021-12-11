@@ -1,5 +1,5 @@
 import React from 'react'
-import { Login, Register, ProductCard } from 'dezenix-react'
+import { Login, Register, ProductCard, ProgressBar } from 'dezenix-react'
 import Home from './components/Home'
 import { HashRouter, Route, Routes } from 'react-router-dom'
 
@@ -10,6 +10,16 @@ const App = () => {
         <Route path='/' element={<Home />} />
         <Route path='/login' element={<Login />} />
         <Route path='/register' element={<Register />} />
+        <Route 
+          path='/progress_bar' 
+          element={
+	          <ProgressBar 
+              bgcolor="red" 
+              progress='60' 
+              height={30} 
+            />
+            } 
+          />
         <Route
           path='/product_card'
           element={
