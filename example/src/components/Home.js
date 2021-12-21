@@ -1,6 +1,5 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import Button from '../components/button/index'
 
 const Home = () => {
   return (
@@ -28,7 +27,6 @@ const Home = () => {
           {/* Add new Link Here for your new component */}
         </div>
       </div>
-      <Button />
     </div>
   )
 }
