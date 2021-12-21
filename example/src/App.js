@@ -10,16 +10,10 @@ const App = () => {
         <Route path='/' element={<Home />} />
         <Route path='/login' element={<Login />} />
         <Route path='/register' element={<Register />} />
-        <Route 
-          path='/progress_bar' 
-          element={
-	          <ProgressBar 
-              bgcolor="red" 
-              progress='60' 
-              height={30} 
-            />
-            } 
-          />
+        <Route
+          path='/progress_bar'
+          element={<ProgressBar bgcolor='red' progress='60' height={30} />}
+        />
         <Route
           path='/product_card'
           element={

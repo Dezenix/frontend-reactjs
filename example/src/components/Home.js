@@ -25,7 +25,7 @@ const Home = () => {
             <h2>Product card</h2>
           </Link>
           {/* Add new Link Here for your new component */}
-          <Link to="/progress_bar" className="component" >
+          <Link to='/progress_bar' className='component'>
             <h2>Progress Bar</h2>
           </Link>
         </div>
