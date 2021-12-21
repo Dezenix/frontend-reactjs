@@ -1,0 +1,21 @@
+.parent {
+    width: 50%;
+    background-color: whitesmoke;
+    border-radius: 40px;
+    margin: 3%;
+  }
+  
+  .child {
+    height: 100%;
+    border-radius: 40px;
+    text-align: "right";
+  }
+  
+  .progress_text {
+    padding: 10px;
+    color: "black";
+    font-weight: 900;
+    text-align: center;
+    justify-content: center;
+  }
+  
