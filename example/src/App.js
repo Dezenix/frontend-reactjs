@@ -1,5 +1,11 @@
 import React from 'react'
-import { Login, Register, ProductCard, ProgressBar } from 'dezenix-react'
+import {
+  Login,
+  Register,
+  ProductCard,
+  ProgressBar,
+  ComplexComponent
+} from 'dezenix-react'
 import Home from './components/Home'
 import { HashRouter, Route, Routes } from 'react-router-dom'
 
@@ -25,6 +31,7 @@ const App = () => {
             />
           }
         />
+        <Route path='/complex' element={<ComplexComponent />} />
       </Routes>
     </HashRouter>
   )
