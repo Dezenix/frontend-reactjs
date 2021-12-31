@@ -14,7 +14,12 @@ function Portfolio_Home(props) {
     <div className="App">
       <Navbar/>
       <Header pic='https://imgur.com/S58nAym'/>
-     
+     <Card/>
+     <Card1/>
+     <Card2/>
+     <Card3/>
+     <Reviews/>
+     <Footer/>
     </div>
   );
 }
