@@ -12,6 +12,7 @@ import {
 } from 'dezenix-react'
 import Home from './components/Home'
 import { HashRouter, Route, Routes } from 'react-router-dom'
+import img1 from "./images/img01.png"
 
 
 
@@ -39,7 +40,7 @@ const App = () => {
           }
         />
         <Route path='/complex' element={<ComplexComponent />} />
-        <Route path='/portfoliohome' element={<Portfolio_Home />} />
+        <Route path='/portfoliohome' element={<Portfolio_Home pic={img1} />} />
        
       </Routes>
     </HashRouter>

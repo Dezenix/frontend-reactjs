@@ -57,6 +57,7 @@
     "dist"
   ],
   "dependencies": {
-    "react-icons": "^4.3.1"
+    "react-icons": "^4.3.1",
+    "styled-components": "^5.3.3"
   }
 }
