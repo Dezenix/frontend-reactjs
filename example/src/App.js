@@ -4,10 +4,18 @@ import {
   Register,
   ProductCard,
   ProgressBar,
-  ComplexComponent
+  ComplexComponent,
+  PortfolioHome,
+
+ 
+
 } from 'dezenix-react'
 import Home from './components/Home'
 import { HashRouter, Route, Routes } from 'react-router-dom'
+import img1 from "./images/img01.png"
+
+
+
 
 const App = () => {
   return (
@@ -32,6 +40,8 @@ const App = () => {
           }
         />
         <Route path='/complex' element={<ComplexComponent />} />
+        <Route path='/portfoliohome' element={<PortfolioHome pic={img1} />} />
+       
       </Routes>
     </HashRouter>
   )
