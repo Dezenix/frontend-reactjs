@@ -5,7 +5,7 @@ import {
   ProductCard,
   ProgressBar,
   ComplexComponent,
-  Portfolio_Home,
+  PortfolioHome,
 
  
 
@@ -40,7 +40,7 @@ const App = () => {
           }
         />
         <Route path='/complex' element={<ComplexComponent />} />
-        <Route path='/portfoliohome' element={<Portfolio_Home pic={img1} />} />
+        <Route path='/portfoliohome' element={<PortfolioHome pic={img1} />} />
        
       </Routes>
     </HashRouter>

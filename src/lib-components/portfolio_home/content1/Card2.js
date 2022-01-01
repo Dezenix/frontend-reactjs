@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components';
 
-// import img01 from "./images/img01.png"
+import img01 from "https://i.imgur.com/g0dtKgj.png"
 // import img02 from "./images/img02.png"
 // import img03 from "./images/img03.png"
 // import img04 from "./images/img04.png"
@@ -20,19 +20,19 @@ export const Card2 = () => {
                   <h5>Amet minim mollit non <br/>deserunt ullamco est sit <br/>aliqua dolor do amet sint. </h5>
                </div>
                <div className='box'>
-                    <img src={img02} />
+                    <img src={img01} />
                     <h3>Professional</h3>
                   <h5>Amet minim mollit non<br/> deserunt ullamco est sit <br/>aliqua dolor do amet sint. </h5>
 
                </div>
                <div className='box'>
-               <img src={img03} />
+               <img src={img01} />
                <h3>Collaborative​</h3>
                <h5>Amet minim mollit non<br/> deserunt ullamco est sit<br/> aliqua dolor do amet sint. </h5>
 
                </div>
                <div className='box'>
-               <img src={img04} />
+               <img src={img01} />
                <h3>
                Client’s Favourite
                </h3>

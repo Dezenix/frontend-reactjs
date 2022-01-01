@@ -9,7 +9,7 @@ import {Card2} from "./content1/Card2";
 import { Card3 } from './content1/Card3';
 import Reviews from './Reviews/Reviews';
 import {Footer} from "./footer/Footer"
-function Portfolio_Home(props) {
+function PortfolioHome(props) {
   return (
     <div className="App">
       <Navbar/>
@@ -24,4 +24,4 @@ function Portfolio_Home(props) {
   );
 }
 
-export default Portfolio_Home;
+export default PortfolioHome;
