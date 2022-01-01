@@ -5,7 +5,7 @@ export const Footer = () => {
     return (
         <Container>
             <div>
-                 <h1>Let's zxjjdszdsjsdkConnect</h1>
+                 <h1>Let's Connect</h1>
             </div>
             <div>
                 <a href="/">

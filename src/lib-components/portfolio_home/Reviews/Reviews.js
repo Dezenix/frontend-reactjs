@@ -24,7 +24,7 @@ const  Reviews = () => {
                One of the best additions to our feedback loop has been the company-wide adoption of Fellow.
                </h3>
                <div>
-               <img className='test' />
+               <img className='test'  src='https://i.imgur.com/caUKig4.png'/>
                </div>
                
 
@@ -34,7 +34,7 @@ const  Reviews = () => {
                It provides an amazing platform for constant conversations and direct feedback between managers and direct reports.
                </h3>
                <div>
-               <img className='test' />
+               <img className='test'  src='https://i.imgur.com/qgt2Hv2.png'/>
                </div>
               
              </div>
@@ -50,7 +50,8 @@ export default Reviews
 
 const Container =styled.div`
 position: absolute;
-width: 1440px;
+border:solid 1px red;
+width: 1640px;
 height: 683px;
 
 margin-top: 3863px;
@@ -104,6 +105,7 @@ align-items:center;
     }
 }
 .test{
+margin-left:50px;
 
 }
 `;

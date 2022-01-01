@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components';
 
-import img01 from "https://i.imgur.com/g0dtKgj.png"
+
 // import img02 from "./images/img02.png"
 // import img03 from "./images/img03.png"
 // import img04 from "./images/img04.png"
@@ -15,24 +15,24 @@ export const Card2 = () => {
             
               <div className='Fluid'>
                <div className='box'>
-                  <img src={img01} />
+                  <img src='https://i.imgur.com/5cJF5Ux.png' />
                   <h3>  Communicative</h3>
                   <h5>Amet minim mollit non <br/>deserunt ullamco est sit <br/>aliqua dolor do amet sint. </h5>
                </div>
                <div className='box'>
-                    <img src={img01} />
+                    <img src='https://i.imgur.com/S58nAym.png' />
                     <h3>Professional</h3>
                   <h5>Amet minim mollit non<br/> deserunt ullamco est sit <br/>aliqua dolor do amet sint. </h5>
 
                </div>
                <div className='box'>
-               <img src={img01} />
+               <img src='https://i.imgur.com/1Zm5ssq.png' />
                <h3>Collaborative​</h3>
                <h5>Amet minim mollit non<br/> deserunt ullamco est sit<br/> aliqua dolor do amet sint. </h5>
 
                </div>
                <div className='box'>
-               <img src={img01} />
+               <img src='https://i.imgur.com/htADX1F.png' />
                <h3>
                Client’s Favourite
                </h3>
@@ -54,16 +54,18 @@ margin-left: 165px;
 margin-top: 2598px;
 
 
-
+text-align:left;
 font-family:Poppins;
 
 h1{
+    font-size:30px;
 height: 62px;
 width: 329px;
+
 }
 .header{
     text-aligns:center;
-    padding-left:400px;
+    padding-left:430px;
    
 }
 .Fluid{

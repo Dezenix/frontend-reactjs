@@ -7,7 +7,7 @@ export const Card = () => {
         <Container>
             <Cont>
                <div className='item'>
-               <img src={pic} alt="sx"/>
+               <img src='https://i.imgur.com/Avp52SS.png' alt="sx"/>
                </div>
                <div className='item item1'>
              <div className='content con1'>
@@ -16,7 +16,7 @@ export const Card = () => {
                      Completed Projects
                     </div>
                  <div className='box box1'>
-                  <h9>A+  <img  class="rate"src={rating}/></h9>
+                  <h9>A+  <img  class="rate"src='https://i.imgur.com/GnOjUao.png'/></h9>
                  
                    <br/>  Positive Reviews
                  </div>

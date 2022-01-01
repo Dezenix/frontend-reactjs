@@ -16,7 +16,7 @@ export const Card1 = () => {
              </div>  
                <div className='cont'>
                    <div className="sub-cont">
-                       <img src={img1}/>
+                       <img src='https://i.imgur.com/uMQKtAn.png'/>
                        <h2>UI Portofolio</h2>
                        <div>
 
@@ -26,7 +26,7 @@ export const Card1 = () => {
                   
                    </div>
                    <div className="sub-cont">
-                       <img src={img2}/>
+                       <img src='https://i.imgur.com/g0dtKgj.png'/>
                        <h2>UI Portofolio</h2>
                        <div>
                        <h3><i className="fas fa-layer-group"></i>View study case</h3>

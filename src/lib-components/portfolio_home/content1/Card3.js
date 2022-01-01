@@ -20,7 +20,7 @@ with me?
             <button className="btn-2">See More Projects</button>
             </div>
             <div className='logos'>
-                  <img src={logo}/>
+                  <img src='https://i.imgur.com/SXfH8d1.png'/>
             </div>
         </Container>
     )

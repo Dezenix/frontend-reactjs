@@ -20,7 +20,7 @@ export const Header = (props) => {
                 </h1>
               </li>
               <li>
-                <img src={props.line} alt="line" />
+                <img src='https://i.imgur.com/UVnI2bX.png' alt="line" />
               </li>
               <li>
                 <h5>
@@ -53,8 +53,8 @@ export const Header = (props) => {
           </box>
           <box>
             <div>
-              <img src='https://i.imgur.com/S58nAym.png' alt="picsad" />
-              <img className="back" src={props.bullets} />
+              <img src='https://i.imgur.com/CQJK0zA.png' alt="picsad" />
+              <img className="back" src='https://i.imgur.com/Jxg68At.jpg' />
             </div>
           </box>
         </div>
