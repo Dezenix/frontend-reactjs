@@ -28,6 +28,13 @@ const Home = () => {
           <Link to='/progress_bar' className='component'>
             <h2>Progress Bar</h2>
           </Link>
+          <Link to='/complex' className='component'>
+            <h2>Complex component example</h2>
+          </Link>
+          <Link to='/portfoliohome' className='component'>
+            <h2> Portfolio Home example</h2>
+          </Link>
+         
         </div>
       </div>
     </div>
