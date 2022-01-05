@@ -6,7 +6,7 @@ import {
   ProgressBar,
   ComplexComponent,
   PortfolioHome,
-
+  Table
  
 
 } from 'dezenix-react'
@@ -18,6 +18,36 @@ import img1 from "./images/img01.png"
 
 
 const App = () => {
+  let headers = ["Id","Name", "Email", "Password", "Mobile"];
+  let bodys = [
+    { Id: "1",
+      Name: "disha",
+      Email: "disha@gmail.com",
+      Password: "disha",
+      Mobile: "9810XXXXXX",
+    },
+    {
+      Id: "2",
+      Name: "disha",
+      Email: "disha@gmail.com",
+      Password: "disha",
+      Mobile: "9810XXXXXX",
+    },
+    {
+      Id: "3",
+      Name: "disha",
+      Email: "disha@gmail.com",
+      Password: "disha",
+      Mobile: "9810XXXXXX",
+    },
+    {
+      Id: "4",
+      Name: "disha",
+      Email: "disha@gmail.com",
+      Password: "disha",
+      Mobile: "9810XXXXXX",
+    },
+  ];
   return (
     <HashRouter>
       <Routes>
@@ -27,6 +57,10 @@ const App = () => {
         <Route
           path='/progress_bar'
           element={<ProgressBar bgcolor='red' progress='60' height={30} />}
+        />
+        <Route
+          path='/table'
+          element={<Table header={headers} body={bodys} key={bodys.Id} /> }
         />
         <Route
           path='/product_card'
