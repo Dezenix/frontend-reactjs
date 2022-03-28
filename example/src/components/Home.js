@@ -34,7 +34,10 @@ const Home = () => {
           <Link to='/portfoliohome' className='component'>
             <h2> Portfolio Home example</h2>
           </Link>
-         
+          <Link to='/responsivenavbar' className='component'>
+            <h2> Responsive Navbar</h2>
+          </Link>
+
         </div>
       </div>
     </div>
