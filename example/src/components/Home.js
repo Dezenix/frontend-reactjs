@@ -34,6 +34,9 @@ const Home = () => {
           <Link to='/portfoliohome' className='component'>
             <h2> Portfolio Home example</h2>
           </Link>
+          <Link to='/team' className='component'>
+            <h2>Team members</h2>
+          </Link>
          
         </div>
       </div>
