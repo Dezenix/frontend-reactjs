@@ -6,7 +6,8 @@ import {
   ProgressBar,
   ComplexComponent,
   PortfolioHome,
-  TeamMembers
+  TeamMembers,
+  GroceryList
 
  
 
@@ -45,6 +46,7 @@ const App = () => {
         <Route path='/complex' element={<ComplexComponent />} />
         <Route path='/portfoliohome' element={<PortfolioHome pic={img1} />} />
         <Route path='/team' element={<TeamMembers img={user} members={members}  />} />
+        <Route path='/GroceryList' element={<GroceryList />} />
        
       </Routes>
     </HashRouter>
