@@ -6,11 +6,9 @@ import {
   ProgressBar,
   ComplexComponent,
   PortfolioHome,
+  Table,
   TeamMembers,
-  GroceryList
-
- 
-
+  GroceryList,
 } from 'dezenix-react'
 import Home from './components/Home'
 import { HashRouter, Route, Routes } from 'react-router-dom'
@@ -22,6 +20,36 @@ import {members} from "./data/members.json"
 
 
 const App = () => {
+  let headers = ["Id","Name", "Email", "Password", "Mobile"];
+  let bodys = [
+    { Id: "1",
+      Name: "disha",
+      Email: "disha@gmail.com",
+      Password: "disha",
+      Mobile: "9810XXXXXX",
+    },
+    {
+      Id: "2",
+      Name: "disha",
+      Email: "disha@gmail.com",
+      Password: "disha",
+      Mobile: "9810XXXXXX",
+    },
+    {
+      Id: "3",
+      Name: "disha",
+      Email: "disha@gmail.com",
+      Password: "disha",
+      Mobile: "9810XXXXXX",
+    },
+    {
+      Id: "4",
+      Name: "disha",
+      Email: "disha@gmail.com",
+      Password: "disha",
+      Mobile: "9810XXXXXX",
+    },
+  ];
   return (
     <HashRouter>
       <Routes>
@@ -31,6 +59,10 @@ const App = () => {
         <Route
           path='/progress_bar'
           element={<ProgressBar bgcolor='red' progress='60' height={30} />}
+        />
+        <Route
+          path='/table'
+          element={<Table header={headers} body={bodys} key={bodys.Id} /> }
         />
         <Route
           path='/product_card'

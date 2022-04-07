@@ -1,0 +1,32 @@
+h2 {
+    font-size: 30px;
+    color: blueviolet;
+    font-family: monospace;
+}
+
+.table thead{
+    font-size: 20px;
+    color: rgba(0, 0, 255, 0.445);
+}
+
+.table {
+    border: 3px solid blue;
+    width: 600px;
+    height: 300px;
+    margin: 100px auto;
+    text-align: center;
+}
+
+table tr:nth-child(even) {
+    background: #ccc;
+}
+
+table tr:nth-child(odd) {
+    background: rgba(204, 204, 204, 0.356);
+}
+
+
+th {
+    padding: 10px;
+    background-color: white;
+}
