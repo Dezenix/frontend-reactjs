@@ -1,0 +1,136 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.contact {
+  max-width: 450px;
+  height: 100%;
+  display: flex;
+  margin: 1em auto;
+  flex-direction: column;
+  background-color: black;
+  border-radius: 0.5rem;
+  background: rgb(195, 34, 110);
+  background: linear-gradient(
+    125deg,
+    rgba(195, 34, 110, 1) 0%,
+    rgba(253, 187, 45, 1) 48%
+  );
+}
+
+.section-header {
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 1rem;
+  font: 300 22px "Oswald", sans-serif;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.contact-wrapper {
+  margin: 0 auto;
+  padding: 2rem;
+  max-width: 440px;
+  height: 380px;
+}
+
+/* Left contact page */
+.form-horizontal {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  max-width: 400px;
+  font-family: "Lato";
+  font-weight: 400;
+}
+
+input {
+  max-width: 400px;
+  height: 40px;
+  padding: 0.7em;
+  letter-spacing: 1px;
+  border-radius: 0.5rem;
+  background: rgba(255, 255, 255, 0.55);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(15px);
+  border: 1px solid rgba(255, 255, 255, 0.03);
+}
+input:hover,
+textarea:hover {
+  border: 1.5px solid white;
+}
+input:focus-visible,
+textarea:focus-visible {
+  outline: 1.5px solid white;
+}
+textarea {
+  padding: 0.7em;
+  border-radius: 0.5rem;
+  border: 1.5px solid #fff;
+  background: rgba(255, 255, 255, 0.55);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(15px);
+  border: 1px solid rgba(255, 255, 255, 0.03);
+}
+
+.send-button {
+  margin-top: 15px;
+  height: 34px;
+  width: 317px;
+  padding: 7px;
+  border-radius: 0.5rem;
+  border: 1.5px solid #fff;
+  overflow: hidden;
+  transition: all 0.2s ease-in-out;
+  background: rgb(5, 48, 149);
+  background: radial-gradient(
+    circle,
+    rgba(5, 48, 149, 1) 35%,
+    rgba(23, 87, 223, 1) 100%
+  );
+}
+
+.alt-send-button {
+  width: 317px;
+  height: 34px;
+  transition: all 0.2s ease-in-out;
+}
+
+.send-text {
+  display: block;
+  margin-top: 10px;
+  color: #fff;
+  font: 700 12px "Lato", sans-serif;
+  letter-spacing: 2px;
+}
+
+.alt-send-button:hover {
+  transform: translate3d(0px, -25px, 0px);
+}
+
+hr {
+  border-color: rgba(255, 255, 255, 0.6);
+}
+
+/* Begin Media Queries*/
+@media screen and (max-width: 850px) {
+  .contact-wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 569px) {
+}
+
+@media screen and (max-width: 410px) {
+  .send-button {
+    width: 99%;
+  }
+}
