@@ -1,0 +1,36 @@
+{
+  "members": [
+    {
+      "id": 1,
+      "name": "John Doe",
+      "profession": "Founder & co-founder",
+      "github_url": "https://github.com/Dezenix/frontend-reactjs",
+      "linkedin_url": "https://github.com/Dezenix/frontend-reactjs",
+      "twitter_url": "https://github.com/Dezenix/frontend-reactjs"
+    },
+    {
+      "id": 2,
+      "name": "Mario",
+      "profession": "CEO & co-founder",
+      "github_url": "https://github.com/Dezenix/frontend-reactjs",
+      "linkedin_url": "https://github.com/Dezenix/frontend-reactjs",
+      "twitter_url": "https://github.com/Dezenix/frontend-reactjs"
+    },
+    {
+      "id": 3,
+      "name": "Johnson",
+      "profession": "Software Developer",
+      "github_url": "https://github.com/Dezenix/frontend-reactjs",
+      "linkedin_url": "https://github.com/Dezenix/frontend-reactjs",
+      "twitter_url": "https://github.com/Dezenix/frontend-reactjs"
+    },
+    {
+      "id": 4,
+      "name": "Dan",
+      "profession": "Marketing Head",
+      "github_url": "https://github.com/Dezenix/frontend-reactjs",
+      "linkedin_url": "https://github.com/Dezenix/frontend-reactjs",
+      "twitter_url": "https://github.com/Dezenix/frontend-reactjs"
+    }
+  ]
+}
