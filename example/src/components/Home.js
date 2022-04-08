@@ -38,9 +38,21 @@ const Home = () => {
             <h4>Complex component example</h4>
           </Link> 
           <Link to='/portfoliohome' className='component'>
-            <h4> Portfolio Home example</h4>
+       <h4> Portfolio Home example</h4>
           </Link> 
           <i class="bi bi-list mobile-nav-toggle"></i>
+ 
+            <h2> Portfolio Home example</h2>
+          </Link>
+          <Link to='/team' className='component'>
+            <h2>Team members</h2>
+          </Link>
+          <Link to='/GroceryList' className='component'>
+            <h2>Grocery List Site</h2>
+          </Link>
+         
+        </div>
+ 
       </div>
       <div>
       <section id="hero" className="d-flex h-100 ">

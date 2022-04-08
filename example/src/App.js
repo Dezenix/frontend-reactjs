@@ -6,6 +6,8 @@ import {
   ProgressBar,
   ComplexComponent,
   PortfolioHome,
+  TeamMembers,
+  GroceryList
 
  
 
@@ -14,6 +16,9 @@ import Home from './components/Home'
 import { HashRouter, Route, Routes } from 'react-router-dom'
 import img1 from "./images/img01.png"
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
+import user from "./images/user1.jpg"
+import {members} from "./data/members.json"
+ 
 
 
 
@@ -42,6 +47,8 @@ const App = () => {
         />
         <Route path='/complex' element={<ComplexComponent />} />
         <Route path='/portfoliohome' element={<PortfolioHome pic={img1} />} />
+        <Route path='/team' element={<TeamMembers img={user} members={members}  />} />
+        <Route path='/GroceryList' element={<GroceryList />} />
        
       </Routes>
     </HashRouter>
