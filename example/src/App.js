@@ -13,6 +13,7 @@ import {
 import Home from './components/Home'
 import { HashRouter, Route, Routes } from 'react-router-dom'
 import img1 from "./images/img01.png"
+import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
 
 
 

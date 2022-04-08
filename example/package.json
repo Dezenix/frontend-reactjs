@@ -10,6 +10,7 @@
     "eject": "node ../node_modules/react-scripts/bin/react-scripts.js eject"
   },
   "dependencies": {
+    "bootstrap": "^5.1.3",
     "dezenix-react": "link:..",
     "http-serve": "^1.0.1",
     "react": "link:../node_modules/react",
