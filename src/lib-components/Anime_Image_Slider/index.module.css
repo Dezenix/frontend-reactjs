@@ -1,0 +1,262 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container-large{
+    height: 100vh;
+    background-color: #101820FF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.top-list
+{
+
+    width:48%;
+    height: 320px;
+    position:  relative;
+    margin: 0 auto;
+    /* margin-top: 100px; */
+   
+}
+
+.top-list .next-btn, .top-list .prev-btn{
+    position: absolute;
+    z-index: 3;
+    top: 50%;
+   
+    transform: translateY(-50%);
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    outline: none;
+    border: none;
+    box-shadow: 0 0 20px 2px rgba(0, 0, 0, 0.623);
+}
+
+.top-list .prev-btn
+{
+   left: -15px;
+
+}
+.top-list .next-btn
+{
+    right: -15px;
+}
+.prev-btn:hover i{
+    color: #de6262;
+}
+.next-btn:hover i{
+    color: #48b1bf;
+}
+.top-list-header
+{
+    color: #c0dad9;
+    text-transform: capitalize;
+    text-align: center;
+    font-size: clamp(1.3em,2.1vw,4.5vw);
+    /* position:relative;
+    top: 480px; */
+}
+.no-item
+{
+    color: red;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    position: relative;
+    /* top: 650px; */
+    text-align: center;
+    font-size: 1.5em;
+}
+.top-list-inner
+{
+    height: 89%;
+    width: 100%;
+    overflow: hidden;
+}
+.top-list-item-container
+{
+    
+    height: 100%;
+    width: 100%;
+    display: flex;
+    position: relative;
+    left: 0;
+  
+    gap: 20px;
+}
+.top-list-item-container .list-item 
+{
+   
+    flex: 0 0 100%;
+    display: flex;
+    align-items: center;
+    position: relative;
+    z-index: 2;
+  overflow: hidden;
+}
+.top-list-item-container .list-item img
+{
+    aspect-ratio: 16/9;
+    height: 100%;
+    width: 200px;
+}
+
+.top-list-item-container .list-item .info 
+{
+   
+    background: white;
+    flex: 0 0 calc(100% - 200px);
+    height: 80%;
+    display: block;
+    position: relative;
+}
+.top-list-item-container .list-item .info h2{
+    text-align: center;
+    margin-top: 20px;
+    color: black;
+    height: 60px;
+    font-size: clamp(1.8vw,5px,2vw);
+    padding: 0 3%;
+}
+.top-list-item-container .list-item .info p
+{
+    margin-top: 10px;
+    padding: 0 4%;
+    color: grey;
+}
+.list-item .info .btn-seemore
+{
+    text-decoration: none;
+ 
+   position: absolute;
+   right: 5%;
+   bottom: 8%;
+   color: black;
+}
+.list-item .info .btn-seemore .inner-div
+{
+   width: 100px;
+    overflow: hidden;
+}
+.list-item .info .btn-seemore span
+{
+   
+    margin-left: 0;
+    transition: 0.4s;
+}
+.list-item .info .btn-seemore span:nth-child(1)
+{
+    margin-left: -10px;
+}
+.list-item .info .btn-seemore:hover span:nth-child(1)
+{
+    margin-left: 0px;
+}
+.top-list-item-container .list-item .info-sc
+{
+    
+    position: absolute;
+    z-index: 7;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    background: rgba(0, 0, 0, 0);
+    transition: 0.4s linear;
+   
+}
+.top-list-item-container .list-item .info-sc h3{
+    color: white;
+    text-align: center;
+    padding: 0 4%;
+    height: 100px;
+    margin-top: 20px;
+    transform: translateX(-120%);
+    transition: 0.25s linear;
+}
+.top-list-item-container .list-item .info-sc p{
+    color: rgb(216, 216, 216);
+    padding: 0 9%;
+    text-align: center;
+    font-size: 0.97em;
+    transform: translateX(-120%);
+    transition: 0.25s linear;
+    height: 110px;
+}
+.btn-seemore-sc
+{
+    border: 2px solid white;
+    color: white;
+    padding: 3%;
+    text-decoration: none;
+    border-radius: 20px;
+    position: relative;
+    left: 30%;
+    top: 25%;
+    transition: 0.25s linear;
+}
+.btn-seemore-sc:hover
+{
+    background: white;
+    color: black;
+}
+@keyframes anime-text-from-list
+{
+    100%
+    {
+        transform: translateX(0);
+    }
+}
+
+@media screen and (max-width : 940px)
+{
+    .top-list
+    {
+    
+        width:74%;
+      
+       
+    }
+    .top-list-item-container .list-item .info h2{
+        text-align: center;
+        margin-top: 20px;
+        color: black;
+        height: 60px;
+        font-size: clamp(2.6vw,5px,2vw);
+    }
+    .top-list-item-container .list-item .info p
+    {
+        margin-top: 10px;
+        padding: 0 4%;
+        font-size: clamp(1.6vw,1.2em,2.1vw);
+        color: grey;
+    }
+   
+}
+
+@media screen and (max-width:650px)
+{
+  
+    .top-list
+    {
+    
+      width: 200px;
+      
+       
+    }
+    .top-list-item-container .list-item:hover .info-sc
+    {
+        
+       
+        background: rgba(0, 0, 0, 0.45);
+    }
+    
+   
+}
+

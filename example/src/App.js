@@ -7,7 +7,8 @@ import {
   ComplexComponent,
   PortfolioHome,
   TeamMembers,
-  GroceryList
+  GroceryList,
+  AnimeSlider
 
  
 
@@ -17,7 +18,7 @@ import { HashRouter, Route, Routes } from 'react-router-dom'
 import img1 from "./images/img01.png"
 import user from "./images/user1.jpg"
 import {members} from "./data/members.json"
-
+import {data} from "./data/anime_data.json"
 
 
 
@@ -47,6 +48,8 @@ const App = () => {
         <Route path='/portfoliohome' element={<PortfolioHome pic={img1} />} />
         <Route path='/team' element={<TeamMembers img={user} members={members}  />} />
         <Route path='/GroceryList' element={<GroceryList />} />
+
+        <Route path='/anime' element={<AnimeSlider data={data} />} />
        
       </Routes>
     </HashRouter>
