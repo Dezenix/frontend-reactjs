@@ -1,0 +1,118 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .top{
+    background-color: #012970;
+  }
+  .topnav{
+    overflow: hidden;
+    display:flex;
+    color:#fff;
+  }
+  .link{
+      
+     display:flex;
+     
+    letter-spacing: 1px;
+    justify-content: right;
+    justify-content: space-between;
+    background-color: #012970;
+    color:#fff;
+    }
+  
+  .checklist{
+    display:flex;
+    font-size: 4px; 
+     justify-content: space-between;
+     background-color: antiquewhite;
+  }
+  .topnav Link{
+   
+   
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  /*--------------------------------------------------------------
+  # Header
+  --------------------------------------------------------------*/
+  .header {
+    transition: all 0.5s;
+    z-index: 997;
+    padding: 20px 0;
+    line-height: 0;
+  }
+  header.header-scrolled {
+    background: #fff;
+    padding: 15px 0;
+    box-shadow: 0px 2px 20px rgba(1, 41, 112, 0.1);
+  }
+   
+  header   img {
+    max-height: 40px;
+    margin-right: 6px;
+  }
+   
+  #hero {
+    width: 100%;
+    background: #012970;
+  }
+  #hero .container {
+    padding-top: 32px;
+  }
+  
+  #hero .btn-get-started:hover {
+    background: #209dd8;
+  }
+  #hero .btn-watch-video {
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    transition: 0.5s;
+    margin: 10px 0 0 25px;
+    color: #fff;
+    line-height: 1;
+  }
+  #hero .btn-watch-video i {
+    line-height: 0;
+    color: #fff;
+    font-size: 32px;
+    transition: 0.3s;
+    margin-right: 8px;
+  }
+  #hero .btn-watch-video:hover i {
+    color: #47b2e4;
+  }
+  #hero .animated {
+    animation: up-down 2s ease-in-out infinite alternate-reverse both;
+    height: 500px;
+    width: 650px;
+  }
+  .primetxt{
+    font-size: 40px;
+  }
+  @media(max-width:1000px)
+  {
+  
+  #hero .animated{
+  height: 400px;
+  }
+  .primetxt{
+  font-size: xx-large;
+  }
+  }
+  
+  .footer {
+    background: #012970;
+    padding: 0 0 30px 0;
+    font-size: 14px;
+  }
+  
+  .footer .copyright {
+    text-align: center;
+    padding-top: 30px;
+    color: #f0f0f5;
+  }
