@@ -43,6 +43,10 @@ const Home = () => {
           <Link to='/GroceryList' className='component'>
             <h2>Grocery List Site</h2>
           </Link>
+          <Link to='/anime' className='component'>
+            <h2>Anime Slider</h2>
+          </Link>
+         
         </div>
       </div>
     </div>
