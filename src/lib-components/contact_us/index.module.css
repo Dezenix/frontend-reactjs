@@ -2,38 +2,49 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Oswald", sans-serif;
+  background-color: #1495E3;
 }
-
-.contact {
-  max-width: 450px;
-  height: 100%;
-  display: flex;
-  margin: 1em auto;
+.section{
+  height: max-content;
+  width: fit-content;
+  display:flex;
+  flex-wrap:nowrap;
   flex-direction: column;
-  background-color: black;
+  margin: 2em auto;
+  padding: 2em 1em;
   border-radius: 0.5rem;
-  background: rgb(195, 34, 110);
-  background: linear-gradient(
-    125deg,
-    rgba(195, 34, 110, 1) 0%,
-    rgba(253, 187, 45, 1) 48%
-  );
-}
+  background-color:#f4f3ee;
 
-.section-header {
-  text-align: center;
-  margin: 0 auto;
-  padding-top: 1rem;
-  font: 300 22px "Oswald", sans-serif;
-  color: #fff;
+}
+.contact{
+  display:flex;
+  padding: 1em;
+}
+.contact_img {
+  max-width: 440px;
+}
+.brand-header{
+  padding: 0.8em 1em;
+  font-size: 22px;
+  font-weight: 500;
+}
+.section-header{
+  padding-left: 0.25em;
+  padding-bottom: 1em;
+  font-size: 16px;
+  font-weight: 400;
+}
+.brand-header, .section-header {
+  text-align: left;
+  color: #000;
   text-transform: uppercase;
   letter-spacing: 2px;
 }
 
 .contact-wrapper {
-  margin: 0 auto;
-  padding: 2rem;
-  max-width: 440px;
+  padding: 0 0 1em 0;
+  max-width: 430px;
   height: 380px;
 }
 
@@ -48,7 +59,7 @@ body {
   font-weight: 400;
 }
 
-input {
+#contact-form input {
   max-width: 400px;
   height: 40px;
   padding: 0.7em;
@@ -60,15 +71,15 @@ input {
   -webkit-backdrop-filter: blur(15px);
   border: 1px solid rgba(255, 255, 255, 0.03);
 }
-input:hover,
+#contact-form input:hover,
 textarea:hover {
-  border: 1.5px solid white;
+  border: 1.5px solid #1495E3;
 }
-input:focus-visible,
+#contact-form input:focus-visible,
 textarea:focus-visible {
-  outline: 1.5px solid white;
+  outline: 1.5px solid #1495E3;
 }
-textarea {
+#contact-form textarea {
   padding: 0.7em;
   border-radius: 0.5rem;
   border: 1.5px solid #fff;
@@ -80,7 +91,6 @@ textarea {
 }
 
 .send-button {
-  margin-top: 15px;
   height: 34px;
   width: 317px;
   padding: 7px;
