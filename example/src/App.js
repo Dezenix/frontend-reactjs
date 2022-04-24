@@ -7,9 +7,8 @@ import {
   ComplexComponent,
   PortfolioHome,
   TeamMembers,
-  ContactUs
- 
-
+  ContactUs,
+  GroceryList,
 } from 'dezenix-react'
 import Home from './components/Home'
 import { HashRouter, Route, Routes } from 'react-router-dom'
@@ -47,7 +46,9 @@ const App = () => {
         <Route path='/complex' element={<ComplexComponent />} />
         <Route path='/portfoliohome' element={<PortfolioHome pic={img1} />} />
         <Route path='/team' element={<TeamMembers img={user} members={members}  />} />
-        <Route path='/contactus' element={<ContactUs  img={contact} />} />
+        <Route path='/contactus' element={<ContactUs img={contact} />} />
+        <Route path='/GroceryList' element={<GroceryList />} />
+
       </Routes>
     </HashRouter>
   )

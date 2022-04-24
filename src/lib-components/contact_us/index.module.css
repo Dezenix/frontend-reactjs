@@ -3,7 +3,6 @@ body {
   padding: 0;
   box-sizing: border-box;
   font-family: "Oswald", sans-serif;
-  background-color: #1495E3;
 }
 .section{
   height: max-content;
@@ -15,7 +14,7 @@ body {
   padding: 2em 1em;
   border-radius: 0.5rem;
   background-color:#f4f3ee;
-
+  box-shadow: 0 14px 28px rgb(0 0 0 / 25%), 0 10px 10px rgb(0 0 0 / 22%);
 }
 .contact{
   display:flex;

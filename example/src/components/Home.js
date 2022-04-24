@@ -40,6 +40,9 @@ const Home = () => {
           <Link to='/contactus' className='component'>
             <h2>Contact Us</h2>
           </Link>
+          <Link to='/GroceryList' className='component'>
+            <h2>Grocery List Site</h2>
+          </Link>
         </div>
       </div>
     </div>
