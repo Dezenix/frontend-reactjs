@@ -1,6 +1,6 @@
 <h1 align="center">Frontend Reactjs</h1>
 
-![2](https://user-images.githubusercontent.com/79747022/151584748-71bb60bf-4d20-4e35-a143-676f3871caf4.png)
+
 
 <div align="center">
 
@@ -110,5 +110,5 @@ Please note that Dezenix has a [Contributor Code of Conduct](https://github.com/
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](./LICENSE) © Dezenix
 
-![t](https://user-images.githubusercontent.com/79747022/151584788-05e373a0-53e0-4d09-bbaf-52a1ac4196ac.png)
+
 
